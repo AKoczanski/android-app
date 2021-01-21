@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".CalculatorActivity">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/calcOutput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="textEnd"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat"
+            android:hint="0"
+            android:textSize="40dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/calcCBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="C"
+                />
+
+           <Button
+               android:id="@+id/calcBracketsBtn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@null"
+               android:textSize="50dp"
+               android:text="( )"
+               />
+            <Button
+                android:id="@+id/calcPercentageBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="%"
+                />
+            <Button
+                android:id="@+id/calcDivisionBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="/"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/calc7Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="7"
+                />
+
+            <Button
+                android:id="@+id/calc8Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="8"
+                />
+            <Button
+                android:id="@+id/calc9Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="9"
+                />
+            <Button
+                android:id="@+id/calcMultiplyBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="*"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/calc4Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="4"
+                />
+
+            <Button
+                android:id="@+id/calc5Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="5"
+                />
+            <Button
+                android:id="@+id/calc6Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="6"
+                />
+            <Button
+                android:id="@+id/calcMinusBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="-"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/calc1Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="1"
+                />
+
+            <Button
+                android:id="@+id/calc2Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="2"
+                />
+            <Button
+                android:id="@+id/calc3Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="3"
+                />
+            <Button
+                android:id="@+id/calcPlusBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="+"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/calcPlusMinusBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="+/-"
+                />
+
+            <Button
+                android:id="@+id/calc0Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="0"
+                />
+            <Button
+                android:id="@+id/calcCommaBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text=","
+                />
+            <Button
+                android:id="@+id/calcEqualsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="50dp"
+                android:text="="
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

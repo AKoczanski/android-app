@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".ToDoActivity">
+
+    <LinearLayout
+        android:id="@+id/todoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo"
+            android:textSize="80dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/todoInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:hint="@string/todo_hint"
+            android:layout_marginTop="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/todoAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:textSize="20dp"
+                android:padding="25dp"
+                android:text="@string/todo_button"
+                android:background="@null"
+                />
+
+            <Button
+                android:id="@+id/todoShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="20dp"
+                android:padding="25dp"
+                android:text="@string/todo_button2"
+                android:background="@null"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

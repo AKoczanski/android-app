@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AKProject</string>
+    <string name="calc">Kalkulator</string>
+    <string name="calc_desc">Wykonaj obliczenia</string>
+    <string name="todo">ToDo Lista</string>
+    <string name="todo_desc">Zaplanuj swój dzień</string>
+    <string name="todo_hint">Podaj aktywność</string>
+    <string name="todo_button">Dodaj</string>
+    <string name="todo_button2">Pokaż</string>
+    <string name="todo_delete_btn">Usuń</string>
+    <string name="todo_update_btn">Aktualizuj</string>
+    <string name="todo_back_btn">Wróć</string>
+    <string name="todo_pizza">Zjem dzisiaj pizze</string>
+    <string name="weather">Pogoda</string>
+    <string name="weather_desc">Sprawdź pogodę w Twoim mieście</string>
+    <string name="weather_hint">Wprowadź miasto</string>
+    <string name="weather_button">Sprawdź pogodę</string>
+    <string name="weather_cold">Brrr ale dzisiaj zimno</string>
+
+</resources>

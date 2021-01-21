@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AKProject</string>
+    <string name="calc">Calculator</string>
+    <string name="calc_desc">Do some calculation</string>
+    <string name="todo">ToDo List</string>
+    <string name="todo_desc">Plan your day</string>
+    <string name="todo_hint">Enter activity</string>
+    <string name="todo_button">Add</string>
+    <string name="todo_button2">Show</string>
+    <string name="todo_delete_btn">Delete</string>
+    <string name="todo_update_btn">Update</string>
+    <string name="todo_back_btn">Back</string>
+    <string name="todo_pizza">Eat some pizza</string>
+    <string name="weather">Weather</string>
+    <string name="weather_desc">Check weather in your city</string>
+    <string name="weather_hint">Enter City Name</string>
+    <string name="weather_button">Get Weather</string>
+    <string name="weather_cold">Brrr today it is cold</string>
+
+</resources>
